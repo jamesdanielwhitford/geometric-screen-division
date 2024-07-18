@@ -1,0 +1,21 @@
+/* src/layouts/GoldenRatioLayout.css */
+.golden-ratio {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .section {
+    flex-grow: 1;
+  }
+  
+  .section1 {
+    flex-basis: 61.8%;
+    background-color: #f0f0f0;
+  }
+  
+  .section2 {
+    flex-basis: 38.2%;
+    background-color: #d0d0d0;
+  }
+  

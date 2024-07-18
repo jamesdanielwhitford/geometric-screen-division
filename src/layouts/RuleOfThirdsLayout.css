@@ -1,0 +1,38 @@
+/* src/layouts/RuleOfThirdsLayout.css */
+.rule-of-thirds {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .grid-line {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .horizontal-line {
+    height: 2px;
+    width: 100%;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 100%;
+  }
+  
+  .line1.horizontal-line {
+    top: 33.33%;
+  }
+  
+  .line2.horizontal-line {
+    top: 66.66%;
+  }
+  
+  .line1.vertical-line {
+    left: 33.33%;
+  }
+  
+  .line2.vertical-line {
+    left: 66.66%;
+  }
+  

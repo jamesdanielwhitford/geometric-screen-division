@@ -1,0 +1,14 @@
+/* src/layouts/DynamicSymmetryLayout.css */
+.dynamic-symmetry {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .dynamic-section {
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+  }
+  
