@@ -1,37 +1,15 @@
 /* src/layouts/FibonacciLayout.css */
-.fibonacci {
-    display: flex;
-    flex-wrap: wrap;
+.fibonacci-layout {
+    position: relative;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
   }
   
-  .box {
+  .fibonacci-box {
+    position: absolute;
     box-sizing: border-box;
-    border: 2px solid #000;
-  }
-  
-  .box1 {
-    width: 61.8%;
-    height: 61.8%;
-    background-color: #f0f0f0;
-  }
-  
-  .box2 {
-    width: 38.2%;
-    height: 38.2%;
-    background-color: #d0d0d0;
-  }
-  
-  .box3 {
-    width: 23.6%;
-    height: 23.6%;
-    background-color: #b0b0b0;
-  }
-  
-  .box4 {
-    width: 14.6%;
-    height: 14.6%;
-    background-color: #909090;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.1);
   }
   

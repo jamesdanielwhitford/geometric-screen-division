@@ -41,11 +41,11 @@ const App = () => {
   }, [handleKeyPress]);
 
   const handleUpdateLayout = ({ columns, rows, gutterSize, rootType, subdivisions }) => {
-    setColumns(columns);
-    setRows(rows);
-    setGutterSize(gutterSize);
-    setRootType(rootType);
-    setSubdivisions(subdivisions);
+    if (columns !== undefined) setColumns(columns);
+    if (rows !== undefined) setRows(rows);
+    if (gutterSize !== undefined) setGutterSize(gutterSize);
+    if (rootType !== undefined) setRootType(rootType);
+    if (subdivisions !== undefined) setSubdivisions(subdivisions);
   };
 
   const renderLayout = () => {
